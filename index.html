@@ -7,28 +7,47 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Recipes From All Over The World</h1>
-    <h3>A world tour in your kitchen starts here.</h3>
-    <img
-      src="../images/home-page.png"
-      alt="Happy couple working together in home kitchen"
-    />
-    <a
-      href="https://www.petrossian.com/blog/recipes/a-world-tour-in-your-kitchen/"
-      target="_blank"
-      ><h4>image source</h4></a
-    >
+    <!-- Title and motto division -->
+    <div class="title">
+      <h1>Recipes From All Over The World</h1>
+      <h3>A world tour in your kitchen starts here.</h3>
+    </div>
+
+    <!-- Image division -->
+    <div class="image">
+      <img
+        src="../images/home-page.png"
+        alt="Happy couple working together in home kitchen"
+      />
+      <form
+        action="https://www.petrossian.com/blog/recipes/a-world-tour-in-your-kitchen/"
+        method="get"
+        target="_blank"
+      >
+        <button class="source"><p>IMAGE SOURCE</p></button>
+      </form>
+    </div>
     <br />
-    <h2>Recipes</h2>
-    <ul>
-      <li><a href="./recipes/cig-kofte.html">Cig Kofte</a></li>
-      <li><a href="./recipes/spicy-guacamole.html">Spicy Guacamole</a></li>
-      <li><a href="./recipes/fava-hummus.html">Fava Hummus</a></li>
-    </ul>
+
+    <!-- Recipes list division -->
+    <div class="recipes">
+      <h2>Recipes</h2>
+      <ul>
+        <li><a href="./recipes/cig-kofte.html">Cig Kofte</a></li>
+        <li><a href="./recipes/spicy-guacamole.html">Spicy Guacamole</a></li>
+        <li><a href="./recipes/fava-hummus.html">Fava Hummus</a></li>
+      </ul>
+    </div>
     <br />
-    <h4>A website by <a href="https://github.com/ecalisk" target="_blank">ecalisk</a><h4>
+
+    <!-- Credit -->
+    <p id="credit">
+      A website by
+      <a href="https://github.com/ecalisk" target="_blank">ecalisk</a>
+    </p>
+    <p></p>
   </body>
 </html>
